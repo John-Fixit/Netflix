@@ -1,0 +1,15 @@
+
+
+.pImages:hover{
+    background-color: black;
+}
+@media screen and (max-width: 849px) and (min-width: 512px) {
+    .carouselExampleCaptions{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 511px) and (min-width: 319px) {
+    .carouselExampleCaptions{
+        height: 25vh;
+    }
+}
