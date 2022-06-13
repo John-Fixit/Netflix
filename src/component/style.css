@@ -1,14 +1,19 @@
 
 
 .pImages:hover{
-    background-color: black;
+    background-image: linear-gradient(red, orange);
+    transform: scale(1.05);
 }
-@media screen and (max-width: 849px) and (min-width: 512px) {
+.border-0{
+    color: white;
+
+}
+@media screen and (max-width: 849px) and (min-width: 595px) {
     .carouselExampleCaptions{
         height: 50vh;
     }
 }
-@media screen and (max-width: 511px) and (min-width: 319px) {
+@media screen and (max-width: 594px) and (min-width: 319px) {
     .carouselExampleCaptions{
         height: 25vh;
     }
